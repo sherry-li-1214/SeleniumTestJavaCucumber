@@ -1,0 +1,245 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6539020700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Client navigate to the loan page",
+            "match": {
+              "location": "steps.LoanCalculatorStep.client_navigate_to_the_loan_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T09:02:31.274Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6149469200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utils.hooks.CucumberHooks.getWebDriver()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify the borrow estimation and cleanup",
+        "description": "",
+        "id": "verify-the-loan-calculator-feature;verify-the-borrow-estimation-and-cleanup",
+        "after": [
+          {
+            "result": {
+              "duration": 764473900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utils.hooks.CucumberHooks.stopWebDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3080871600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "they input the detailed information for themselves from test data file",
+            "match": {
+              "location": "steps.LoanCalculatorStep.they_input_the_detailed_information_for_themselves_as_below()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168948600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they click button Work out how much I can borrow",
+            "match": {
+              "location": "steps.LoanCalculatorStep.they_click_button_work_out_how_much_i_can_borrow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1361925600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they can get the estimate they could borrow",
+            "match": {
+              "location": "steps.LoanCalculatorStep.they_can_get_the_estimate_they_could_borrow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120572800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "they click on Start Over button",
+            "match": {
+              "location": "steps.LoanCalculatorStep.theyClickOnStartOverButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253993200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "all the information has been cleared",
+            "match": {
+              "location": "steps.LoanCalculatorStep.allTheInformationHasBeenCleared()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4735014200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Client navigate to the loan page",
+            "match": {
+              "location": "steps.LoanCalculatorStep.client_navigate_to_the_loan_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T09:02:49.798Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2202575800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utils.hooks.CucumberHooks.getWebDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Negative test- Verify the invalid output",
+        "description": "",
+        "id": "verify-the-loan-calculator-feature;negative-test--verify-the-invalid-output",
+        "after": [
+          {
+            "result": {
+              "duration": 761490300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utils.hooks.CucumberHooks.stopWebDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4891058800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "they enter below data for their information as below",
+            "match": {
+              "location": "steps.LoanCalculatorStep.theyEnterBelowDataForTheirInformationAsBelow(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "living expenses"
+                ]
+              },
+              {
+                "cells": [
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209716100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "they click button Work out how much I can borrow",
+            "match": {
+              "location": "steps.LoanCalculatorStep.they_click_button_work_out_how_much_i_can_borrow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32000500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "they see the error message \"Based on the details you\u0027ve entered, we\u0027re unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Based on the details you\u0027ve entered, we\u0027re unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.LoanCalculatorStep.theySeeErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the loan calculator feature",
+    "description": "",
+    "id": "verify-the-loan-calculator-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoanCalculatorTest.feature",
+    "tags": []
+  }
+]

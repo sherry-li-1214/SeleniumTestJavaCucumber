@@ -1,0 +1,13 @@
+{
+  "application_type": "single",
+  "number_of_dependants": 0,
+  "property_purpose": "home to live in",
+  "income": 80000,
+  "other_income": 10000,
+  "living_costs": 500,
+  "current_home_loan_repay":0,
+  "other_loan_repay":100,
+  "other_commit": 0,
+  "total_credit_card_limits":10000,
+  "expected_loan_amount": 508000
+}

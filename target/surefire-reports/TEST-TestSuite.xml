@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="33.39" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="D:\Users\sherry.li\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\SeleniumFramework\target\test-classes;D:\SeleniumFramework\target\classes;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;D:\Users\sherry.li\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;D:\Users\sherry.li\.m2\repository\net\masterthought\cucumber-reporting\5.6.0\cucumber-reporting-5.6.0.jar;D:\Users\sherry.li\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;D:\Users\sherry.li\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;D:\Users\sherry.li\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;D:\Users\sherry.li\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;D:\Users\sherry.li\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;D:\Users\sherry.li\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\Users\sherry.li\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;D:\Users\sherry.li\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;D:\Users\sherry.li\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;D:\Users\sherry.li\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;D:\Users\sherry.li\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;D:\Users\sherry.li\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;D:\Users\sherry.li\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;D:\Users\sherry.li\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;D:\Users\sherry.li\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;D:\Users\sherry.li\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;D:\Users\sherry.li\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;D:\Users\sherry.li\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;D:\Users\sherry.li\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;D:\Users\sherry.li\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;D:\Users\sherry.li\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\Users\sherry.li\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\Users\sherry.li\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;D:\Users\sherry.li\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;D:\Users\sherry.li\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\Users\sherry.li\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\Users\sherry.li\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\Users\sherry.li\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\Users\sherry.li\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\Users\sherry.li\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.1\webdrivermanager-5.0.1.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;D:\Users\sherry.li\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;D:\Users\sherry.li\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;D:\Users\sherry.li\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;D:\Users\sherry.li\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;D:\Users\sherry.li\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;D:\Users\sherry.li\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;D:\Users\sherry.li\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;D:\Users\sherry.li\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;D:\Users\sherry.li\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;D:\Users\sherry.li\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;D:\Users\sherry.li\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;D:\Users\sherry.li\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;D:\Users\sherry.li\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\Users\sherry.li\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Etc/GMT"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk-16.0.2\bin"/>
+    <property name="sun.java.command" value="D:\Users\sherry.li\AppData\Local\Temp\1\surefire16115675779404594685\surefirebooter7698816618233211394.jar D:\Users\sherry.li\AppData\Local\Temp\1\surefire16115675779404594685 2021-09-13T09-02-26_449-jvmRun1 surefire15243246876355465931tmp surefire_017006052448678016418tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\SeleniumFramework\target\test-classes;D:\SeleniumFramework\target\classes;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;D:\Users\sherry.li\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;D:\Users\sherry.li\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;D:\Users\sherry.li\.m2\repository\net\masterthought\cucumber-reporting\5.6.0\cucumber-reporting-5.6.0.jar;D:\Users\sherry.li\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;D:\Users\sherry.li\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;D:\Users\sherry.li\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;D:\Users\sherry.li\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;D:\Users\sherry.li\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;D:\Users\sherry.li\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\Users\sherry.li\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;D:\Users\sherry.li\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;D:\Users\sherry.li\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;D:\Users\sherry.li\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;D:\Users\sherry.li\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;D:\Users\sherry.li\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;D:\Users\sherry.li\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;D:\Users\sherry.li\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;D:\Users\sherry.li\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;D:\Users\sherry.li\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;D:\Users\sherry.li\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;D:\Users\sherry.li\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;D:\Users\sherry.li\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;D:\Users\sherry.li\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;D:\Users\sherry.li\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\Users\sherry.li\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\Users\sherry.li\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;D:\Users\sherry.li\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;D:\Users\sherry.li\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\Users\sherry.li\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\Users\sherry.li\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\Users\sherry.li\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\Users\sherry.li\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\Users\sherry.li\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\Users\sherry.li\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.1\webdrivermanager-5.0.1.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;D:\Users\sherry.li\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;D:\Users\sherry.li\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;D:\Users\sherry.li\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;D:\Users\sherry.li\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;D:\Users\sherry.li\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;D:\Users\sherry.li\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;D:\Users\sherry.li\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;D:\Users\sherry.li\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;D:\Users\sherry.li\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;D:\Users\sherry.li\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;D:\Users\sherry.li\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;D:\Users\sherry.li\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;D:\Users\sherry.li\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;D:\Users\sherry.li\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\Users\sherry.li\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="D:\Users\sherry.li"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="D:\Java\jdk-16.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\SeleniumFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="D:\Users\sherry.li\AppData\Local\Temp\1\surefire16115675779404594685\surefirebooter7698816618233211394.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="sherry.li"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Users\sherry.li\.m2\repository"/>
+    <property name="cucumber.options" value="--tags @scenario2"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="D:\Users\sherry.li\AppData\Local\Temp\1\"/>
+    <property name="idea.version" value="2021.2.1"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="D:\SeleniumFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk-16.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Amazon\cfn-bootstrap\;C:\nodejs\;C:\ProgramData\chocolatey\bin;d:\driver;C:\Ruby200-x64\bin;D:\Users\sherry.li\AppData\Local\Microsoft\WindowsApps;D:\Users\sherry.li\AppData\Roaming\npm;D:\JetBrains\RubyMine 2021.1.1\bin;;d:\driver;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify the borrow estimation and cleanup&quot;, &quot;Optional[Verify the loan calculator feature]&quot;](1)" classname="TestRunner" time="19.117">
+    <system-out><![CDATA[
+@scenario1
+Scenario: Verify the borrow estimation and cleanup                            # src/test/resources/features/LoanCalculatorTest.feature:7
+get  browser before test starts
+browser type is:
+2021-09-13 09:02:31,727 main DEBUG Apache Log4j Core 2.14.1 initializing configuration XmlConfiguration[location=D:\SeleniumFramework\target\test-classes\log4j2.xml]
+2021-09-13 09:02:31,727 main DEBUG Installed 0 script engines
+2021-09-13 09:02:31,743 main DEBUG Took 0.003525 seconds to load 0 plugins from package org.apache.logging.log4j.test
+2021-09-13 09:02:31,743 main DEBUG PluginManager 'Core' found 122 plugins
+2021-09-13 09:02:31,743 main DEBUG PluginManager 'Level' found 0 plugins
+2021-09-13 09:02:31,743 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2021-09-13 09:02:31,774 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2021-09-13 09:02:31,790 main DEBUG createProperty(name="filename", value="target/log/test.log")
+2021-09-13 09:02:31,790 main DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2021-09-13 09:02:31,790 main DEBUG configureSubstitutor(={filename=target/log/test.log}, Configuration(XMLConfigTest))
+2021-09-13 09:02:31,790 main DEBUG PluginManager 'Lookup' found 16 plugins
+2021-09-13 09:02:31,790 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2021-09-13 09:02:31,790 main DEBUG createFilter(level="INFO", onMatch="null", onMismatch="null")
+2021-09-13 09:02:31,790 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-09-13 09:02:31,805 main DEBUG PatternLayout$Builder(pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-09-13 09:02:31,805 main DEBUG PluginManager 'Converter' found 44 plugins
+2021-09-13 09:02:31,805 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-09-13 09:02:31,821 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout([%d{HH:mm:ss:SSS}] [%p] - %l - %m%n), name="Console", Configuration(XMLConfigTest), Filter=null, ={})
+2021-09-13 09:02:31,821 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2021-09-13 09:02:31,837 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-09-13 09:02:31,837 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-09-13 09:02:31,837 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2021-09-13 09:02:31,837 main DEBUG FileAppender$Builder(fileName="log/test.log", append="false", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n), name="log", Configuration(XMLConfigTest), Filter=null, ={})
+2021-09-13 09:02:31,837 main DEBUG Starting FileManager log/test.log
+2021-09-13 09:02:31,837 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2021-09-13 09:02:31,837 main DEBUG createFilter(level="INFO", onMatch="ACCEPT", onMismatch="DENY")
+2021-09-13 09:02:31,837 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-09-13 09:02:31,837 main DEBUG PatternLayout$Builder(pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-09-13 09:02:31,837 main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2021-09-13 09:02:31,837 main DEBUG TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
+2021-09-13 09:02:31,837 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2021-09-13 09:02:31,837 main DEBUG createPolicy(size="100 MB")
+2021-09-13 09:02:31,852 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2021-09-13 09:02:31,852 main DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)})
+2021-09-13 09:02:31,852 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2021-09-13 09:02:31,852 main DEBUG RollingFileAppender$Builder(fileName="D:\Users\sherry.li/logs/info.log", filePattern="D:\Users\sherry.li/logs/${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout([%d{HH:mm:ss:SSS}] [%p] - %l - %m%n), name="RollingFileInfo", Configuration(XMLConfigTest), ThresholdFilter(INFO), ={})
+2021-09-13 09:02:31,852 main DEBUG Returning file creation time for D:\Users\sherry.li\logs\info.log
+2021-09-13 09:02:31,852 main DEBUG Starting RollingFileManager D:\Users\sherry.li/logs/info.log
+2021-09-13 09:02:31,852 main DEBUG PluginManager 'FileConverter' found 2 plugins
+2021-09-13 09:02:31,868 main DEBUG Setting prev file time to 2021-09-13T08:30:41.198+0000
+2021-09-13 09:02:31,868 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])
+2021-09-13 09:02:31,868 main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2021-09-13 09:02:31,868 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=104857600)
+2021-09-13 09:02:31,868 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2021-09-13 09:02:31,868 main DEBUG createFilter(level="WARN", onMatch="ACCEPT", onMismatch="DENY")
+2021-09-13 09:02:31,868 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-09-13 09:02:31,868 main DEBUG PatternLayout$Builder(pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-09-13 09:02:31,868 main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2021-09-13 09:02:31,884 main DEBUG TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
+2021-09-13 09:02:31,884 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2021-09-13 09:02:31,884 main DEBUG createPolicy(size="100 MB")
+2021-09-13 09:02:31,884 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2021-09-13 09:02:31,884 main DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)})
+2021-09-13 09:02:31,884 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2021-09-13 09:02:31,884 main DEBUG RollingFileAppender$Builder(fileName="D:\Users\sherry.li/logs/warn.log", filePattern="D:\Users\sherry.li/logs/${date:yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout([%d{HH:mm:ss:SSS}] [%p] - %l - %m%n), name="RollingFileWarn", Configuration(XMLConfigTest), ThresholdFilter(WARN), ={})
+2021-09-13 09:02:31,884 main DEBUG Returning file creation time for D:\Users\sherry.li\logs\warn.log
+2021-09-13 09:02:31,884 main DEBUG Starting RollingFileManager D:\Users\sherry.li/logs/warn.log
+2021-09-13 09:02:31,884 main DEBUG PluginManager 'FileConverter' found 2 plugins
+2021-09-13 09:02:31,884 main DEBUG Setting prev file time to 2021-09-13T08:30:41.229+0000
+2021-09-13 09:02:31,884 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])
+2021-09-13 09:02:31,884 main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2021-09-13 09:02:31,884 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=104857600)
+2021-09-13 09:02:31,884 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2021-09-13 09:02:31,884 main DEBUG createFilter(level="ERROR", onMatch="ACCEPT", onMismatch="DENY")
+2021-09-13 09:02:31,884 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-09-13 09:02:31,884 main DEBUG PatternLayout$Builder(pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-09-13 09:02:31,884 main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2021-09-13 09:02:31,899 main DEBUG TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
+2021-09-13 09:02:31,899 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2021-09-13 09:02:31,899 main DEBUG createPolicy(size="100 MB")
+2021-09-13 09:02:31,899 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2021-09-13 09:02:31,899 main DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)})
+2021-09-13 09:02:31,899 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2021-09-13 09:02:31,899 main DEBUG RollingFileAppender$Builder(fileName="D:\Users\sherry.li/logs/error.log", filePattern="D:\Users\sherry.li/logs/${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout([%d{HH:mm:ss:SSS}] [%p] - %l - %m%n), name="RollingFileError", Configuration(XMLConfigTest), ThresholdFilter(ERROR), ={})
+2021-09-13 09:02:31,899 main DEBUG Returning file creation time for D:\Users\sherry.li\logs\error.log
+2021-09-13 09:02:31,899 main DEBUG Starting RollingFileManager D:\Users\sherry.li/logs/error.log
+2021-09-13 09:02:31,899 main DEBUG PluginManager 'FileConverter' found 2 plugins
+2021-09-13 09:02:31,899 main DEBUG Setting prev file time to 2021-09-13T08:30:41.245+0000
+2021-09-13 09:02:31,899 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])
+2021-09-13 09:02:31,899 main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2021-09-13 09:02:31,899 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=104857600)
+2021-09-13 09:02:31,899 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2021-09-13 09:02:31,899 main DEBUG createAppenders(={Console, log, RollingFileInfo, RollingFileWarn, RollingFileError})
+2021-09-13 09:02:31,899 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2021-09-13 09:02:31,899 main DEBUG createLogger(additivity="true", level="INFO", name="org.springframework", includeLocation="null", ={}, ={}, Configuration(XMLConfigTest), Filter=null)
+2021-09-13 09:02:31,915 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2021-09-13 09:02:31,915 main DEBUG createLogger(additivity="true", level="INFO", name="org.mybatis", includeLocation="null", ={}, ={}, Configuration(XMLConfigTest), Filter=null)
+2021-09-13 09:02:31,915 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-09-13 09:02:31,915 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2021-09-13 09:02:31,915 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-09-13 09:02:31,915 main DEBUG createAppenderRef(ref="RollingFileInfo", level="null", Filter=null)
+2021-09-13 09:02:31,915 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-09-13 09:02:31,915 main DEBUG createAppenderRef(ref="RollingFileWarn", level="null", Filter=null)
+2021-09-13 09:02:31,915 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-09-13 09:02:31,915 main DEBUG createAppenderRef(ref="RollingFileError", level="null", Filter=null)
+2021-09-13 09:02:31,915 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2021-09-13 09:02:31,915 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={Console, RollingFileInfo, RollingFileWarn, RollingFileError}, ={}, Configuration(XMLConfigTest), Filter=null)
+2021-09-13 09:02:31,915 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2021-09-13 09:02:31,915 main DEBUG createLoggers(={org.springframework, org.mybatis, root})
+2021-09-13 09:02:31,915 main DEBUG Configuration XmlConfiguration[location=D:\SeleniumFramework\target\test-classes\log4j2.xml] initialized
+2021-09-13 09:02:31,915 main DEBUG Starting configuration XmlConfiguration[location=D:\SeleniumFramework\target\test-classes\log4j2.xml]
+2021-09-13 09:02:31,915 main DEBUG Started configuration XmlConfiguration[location=D:\SeleniumFramework\target\test-classes\log4j2.xml] OK.
+2021-09-13 09:02:31,915 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2021-09-13 09:02:31,915 main DEBUG OutputStream closed
+2021-09-13 09:02:31,915 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2021-09-13 09:02:31,915 main DEBUG Appender DefaultConsole-1 stopped with status true
+2021-09-13 09:02:31,915 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@1950e8a6 OK
+2021-09-13 09:02:32,040 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93
+2021-09-13 09:02:32,040 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=StatusLogger
+2021-09-13 09:02:32,040 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=ContextSelector
+2021-09-13 09:02:32,040 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=
+2021-09-13 09:02:32,040 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=org.springframework
+2021-09-13 09:02:32,040 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=org.mybatis
+2021-09-13 09:02:32,040 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=Console
+2021-09-13 09:02:32,055 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=RollingFileInfo
+2021-09-13 09:02:32,055 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=RollingFileWarn
+2021-09-13 09:02:32,055 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=log
+2021-09-13 09:02:32,055 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=RollingFileError
+2021-09-13 09:02:32,055 main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2021-09-13 09:02:32,055 main DEBUG Reconfiguration complete for context[name=73d16e93] at URI D:\SeleniumFramework\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@160396db) with optional ClassLoader: null
+2021-09-13 09:02:32,055 main DEBUG Shutdown hook enabled. Registering a new one.
+2021-09-13 09:02:32,055 main DEBUG LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@160396db] started OK.
+  Given Client navigate to the loan page                                      # steps.LoanCalculatorStep.client_navigate_to_the_loan_page()
+Customer information is:CustomerInfo{application_type='single', numbers_of_dependents='0', property_purpose='home to live in', income=80000, other_income=10000, living_costs=500, current_home_loan_repay=0, other_loan_repay=100, other_commit=0, total_credit_card_limits=10000, expected_loan_amount=508000}
+in steps ,custoemr is:CustomerInfo{application_type='single', numbers_of_dependents='0', property_purpose='home to live in', income=80000, other_income=10000, living_costs=500, current_home_loan_repay=0, other_loan_repay=100, other_commit=0, total_credit_card_limits=10000, expected_loan_amount=508000}
+income is:80000
+  When they input the detailed information for themselves from test data file # steps.LoanCalculatorStep.they_input_the_detailed_information_for_themselves_as_below()
+  Then they click button Work out how much I can borrow                       # steps.LoanCalculatorStep.they_click_button_work_out_how_much_i_can_borrow()
+true
+the calculated borrow amount is:$508,000
+  Then they can get the estimate they could borrow                            # steps.LoanCalculatorStep.they_can_get_the_estimate_they_could_borrow()
+  When they click on Start Over button                                        # steps.LoanCalculatorStep.theyClickOnStartOverButton()
+  Then all the information has been cleared                                   # steps.LoanCalculatorStep.allTheInformationHasBeenCleared()
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as D:\Users\sherry.li\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 42149
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 13, 2021 9:02:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Negative test- Verify the invalid output&quot;, &quot;Optional[Verify the loan calculator feature]&quot;](2)" classname="TestRunner" time="12.538">
+    <system-out><![CDATA[
+@scenario2
+Scenario: Negative test- Verify the invalid output                                                                                                                                                  # src/test/resources/features/LoanCalculatorTest.feature:15
+get  browser before test starts
+  Given Client navigate to the loan page                                                                                                                                                            # steps.LoanCalculatorStep.client_navigate_to_the_loan_page()
+living expense is:1
+income is:0
+  And they enter below data for their information as below                                                                                                                                          # steps.LoanCalculatorStep.theyEnterBelowDataForTheirInformationAsBelow(io.cucumber.datatable.DataTable)
+  Then they click button Work out how much I can borrow                                                                                                                                             # steps.LoanCalculatorStep.they_click_button_work_out_how_much_i_can_borrow()
+  Then they see the error message "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500." # steps.LoanCalculatorStep.theySeeErrorMessage(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as D:\Users\sherry.li\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 56163
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 13, 2021 9:02:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
