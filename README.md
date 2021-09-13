@@ -11,7 +11,7 @@ Behavioural driven development automation framework using selenium, cucumber-jav
 4. Automation tool: Selenium webdriver
 5. Build tool: maven
 6. Logging: log4j2
-7. Reporting:
+7. Reporting:cucumber reports 
 
 
 ## Features of the framework
