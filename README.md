@@ -1,4 +1,4 @@
-# selenium Framework For ANZ Test purpose
+# selenium Framework with JAVA + BDD(Cucumber)+maven+log4j2
 
 Behavioural driven development automation framework using selenium, cucumber-java, testng, maven, phantomjs
 
